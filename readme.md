@@ -1,5 +1,3 @@
-#TP1
-
 ## Lab instructions
 	* Create a basic project with following files as seen in class :
 		* package.json
@@ -15,8 +13,7 @@
 This is the first lab of this course.
 
 ## How to run the tests 
-Go to the directory tp1/
-Run node app.js
+Run node lib/app.js
 
 Try to get theses urls : localhost:1337/get/0 to 4
 If you want to add an user : localhost:1337/save/username
