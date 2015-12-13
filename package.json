@@ -1,11 +1,28 @@
 {
-  "name": "ECE Node js",
+  "name": "ece-nodejs-tp",
   "version": "1.0.0",
-  "description": "first lab",
-  "main": "src/app.js",
+  "description": "* Create a basic project with following files as seen in class : \t\t* package.json \t\t* readme.md \t\t* app.js \t\t* users.js \t\t* Create a git repo \t\t* Create a repo on github \t\t* Upload on github \t* Notes: do play and experiment a bit with the code",
+  "main": "lib/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
   "scripts": {
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/domitilleroger/ece-nodejs-tp.git"
+  },
   "author": "Elise Elbeze & Domitille Roger",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domitilleroger/ece-nodejs-tp/issues"
+  },
+  "homepage": "https://github.com/domitilleroger/ece-nodejs-tp"
 }
